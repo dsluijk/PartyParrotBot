@@ -1,0 +1,28 @@
+{
+  "name": "partyparrotbot",
+  "version": "0.1.0",
+  "description": "Party or die!",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasDev/PartyParrotBot.git"
+  },
+  "keywords": [
+    "Party",
+    "Parrot"
+  ],
+  "author": "Dany Sluijk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtlasDev/PartyParrotBot/issues"
+  },
+  "homepage": "https://telegram.me/PartyParrotBot",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "tslint": "^5.5.0",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": "^2.4.1"
+  }
+}

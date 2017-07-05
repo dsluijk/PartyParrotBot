@@ -1,0 +1,39 @@
+{
+  "extends": "tslint-microsoft-contrib",
+  "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "no-for-in-array": false,
+    "restrict-plus-operands": false,
+    "missing-jsdoc": false,
+    "no-any": false,
+    "function-name": false,
+    "export-name": false,
+    "no-relative-imports": false,
+    "no-reserved-keywords": false,
+    "no-multiline-string": false,
+    "no-backbone-get-set-outside-model": false,
+    "no-constructor-vars": false,
+    "no-string-literal": false,
+    "trailing-comma": true,
+    "no-bitwise": false,
+    "no-increment-decrement": false,
+    "insecure-random": false,
+    "no-stateless-class": false,
+    "no-function-expression": false,
+    "one-line": false,
+    "await-promise": false,
+    "no-import-side-effect": false,
+    "no-parameter-properties": false,
+    "no-console": false,
+    "no-unsafe-any": false,
+    "no-void-expression": false,
+    "completed-docs": [ true, "classes", "functions", "methods", "properties" ],
+    "variable-name": [ false ],
+    "curly": [ true, "ignore-same-line" ],
+    "interface-name": [ true, "never-prefix" ],
+    "indent": [ true, "spaces", 2 ],
+    "typedef": [ true, "call-signature", "parameter", "member-variable-declaration" ]
+  }
+}
