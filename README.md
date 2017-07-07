@@ -15,7 +15,7 @@ The only Slack reaction gif's you'll ever need. Now on Telegram.
  5. Start the party: ``npm start``.
 
 ## ![](https://raw.githubusercontent.com/jmhobbs/cultofthepartyparrot.com/master/parrots/congaparrot.gif) Docker support
-Party Parrot Bot has support for docker, and it's really simple:
+Party Parrot Bot has support for [docker](https://hub.docker.com/r/atlasdev/partyparrot/), and it's really simple:
 ``` Bash
 docker run
   -e NODE_CONFIG='{
