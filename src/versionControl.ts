@@ -17,11 +17,11 @@ export class VersionControl {
   /**
    * Url to get a list of parrots from.
    */
-  private parrotsUrl: string = 'https://raw.githubusercontent.com/jmhobbs/cultofthepartyparrot.com/master/parrots.json';
+  private parrotsUrl: string = 'https://cultofthepartyparrot.com/parrots.json';
   /**
    * Base url for the parrots images.
    */
-  private parrotBaseUrl: string = 'https://raw.githubusercontent.com/jmhobbs/cultofthepartyparrot.com/master/parrots/';
+  private parrotBaseUrl: string = 'https://cultofthepartyparrot.com/parrots/';
   /**
    * Reference to the cage.
    */
