@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER atlasdev
+MAINTAINER dsluijk
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
