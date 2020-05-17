@@ -4,9 +4,12 @@ MAINTAINER dsluijk
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app/
-RUN npm install
+COPY package.json .
+COPY tsconfig.json .
+COPY config ./config
+COPY src ./src
 
-COPY dist /usr/src/app/dist
+RUN npm install
+RUN npm run build
 
 CMD [ "npm", "start" ]
