@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  partyparrot:
+    container_name: partyparrot
+    image: dsluijk/partyparrot
+    restart: always
+    environment:
+      POSTGRES_USER: "'{"telegramAuth": "YOUR_TELEGRAM_TOKEN", "raven": "YOUR_OPTIONAL_RAVEN_TOKEN"}'"
